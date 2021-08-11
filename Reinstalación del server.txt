@@ -1,0 +1,171 @@
+PLESK CREDENCIALES
+IP:198.71.62.84
+Usuario: root
+Contraseña: b5Z8Xum!6G
+Usuario: admin
+Contraseña: Wape930821#
+PLESK CREDENCIALES SERVER 2
+ID:719448439
+Contraseña: Perez2020#$%
+IP:74.208.93.121
+Usuario: root
+Contraseña: dpihN1$@x7
+Usuario: admin
+Contraseña: Wape930821#
+
+
+Nuevo subdominio
+demo.gscconsulting.org JOOMLA
+evaluaciones.gscconsulting.org LARAVEL
+datospersonales.pueblacapital.org
+vim ~/.bashrc
+vim ~/.bash_profile
+####### Usuarios para gscconsulting.org #######
+usuario: gscconsulting
+contraseña: Wape930821#
+JOOMLA gscconsulting
+Usuario: luisivan_20_t0ppqlv9
+Contraseña: d1j$LdO64G
+JOOMLA demo
+Usuario: luisivan_20_q4nzlegd
+Contraseña: 2QRi7b$cI6
+
+####### Usuarios para ct-puebla.org #######
+usuario: ctransparencia
+contraseña: Ctransparencia20#
+####### Usuario para joomla #######
+ewaldope_z9r7676l
+Ctransparencia20#
+###### Usuario para saxcarboutique.com #######
+usuario: ewaldope
+contraseña: Ctransparencia20#
+####### Usuario datospersonales.pueblacapital.gob.mx #############
+usuario: ivanflores
+contraseña: risz!&6NWJm@
+
+//export PATH=/opt/plesk/php/7.4/bin:$PATH;
+personalinformation
+
+cd /var/www/vhosts/ct-puebla.org/franzel.ct-puebla.org/franzel/
+cd /var/www/vhosts/ct-puebla.org/saxcarboutique.ct-puebla.org/saxcarboutique/
+cd /var/www/vhosts/saxcarboutique.com/httpdocs/saxcarboutique/
+cd /var/www/vhosts/datospersonales.pueblacapital.gob.mx/httpdocs/personalinformation/
+cd /var/www/vhosts/gscconsulting.org/evaluaciones.gscconsulting.org/evaluations/
+cd /var/www/vhosts/gscconsulting.org/declaraciones.gscconsulting.org/declaraciones/
+cd /var/www/vhosts/gscconsulting.org/saxcarboutique.gscconsulting.org/saxcarboutique/
+
+COMANDO PARA INSTALAR BAJO PHP 7.3
+/opt/plesk/php/7.3/bin/php /usr/lib64/plesk-9.0/composer.phar [comando composer]
+/opt/plesk/php/7.3/bin/php /usr/lib64/plesk-9.0/composer.phar require laravel/jetstream
+/opt/plesk/php/7.4/bin/php composer create-project --prefer-dist laravel/laravel
+/opt/plesk/php/7.4/bin/php /usr/lib64/plesk-9.0/composer.phar create-project --prefer-dist laravel/laravel saxcarboutique
+/opt/plesk/php/7.4/bin/php /usr/lib64/plesk-9.0/composer.phar create-project --prefer-dist laravel/laravel franzel --jet
+composer config platform.php 7.4.3
+export PATH=/opt/plesk/php/7.4/bin:$PATH;
+export PATH=/usr/lib64/plesk-9.0:$PATH;
+
+Se tiene que agregar al archivo
+vi ~/.bash_profile
+Agregar alias
+alias php='/opt/plesk/php/7.4/bin/php'
+export PATH=/opt/plesk/php/7.4/bin:$PATH
+
+source ~/.bashrc
+
+
+Correr composer sin el exahust memory
+Para crear pdf
+COMPOSER_MEMORY_LIMIT=-1 composer require barryvdh/laravel-dompdf
+Para traducir fechas
+COMPOSER_MEMORY_LIMIT=-1 composer require jenssegers/date
+
+Rollback a composer
+Use
+composer self-update --2
+composer self-update --rollback
+to return to version 1.10.5
+composer -V
+laravel new saxcarboutique --jet
+
+COMANDO PARA CREAR CONTROLADOR Y VISTA DE LIVEWIRE
+php artisan livewire:make ['nombre del componente de livewire']
+
+
+Access token real de saxcarboutique
+APP_USR-2395559644114545-102716-977af4cb5de0fc7088c6444b524cd51a-359141679
+
+Token de prueba
+TEST-2395559644114545-102716-09eb45ac3af0e953ac27ff77bf286ef5-359141679
+
+Revertir migraciones por paso
+php artisan migrate:rollback --step=1
+
+mail de sistemas
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.ionos.mx
+MAIL_PORT=587
+MAIL_USERNAME="sistemas@saxcarboutique.com"
+MAIL_PASSWORD="Wape930821#"
+MAIL_ENCRYPTION=tls
+
+mail de sandbox
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=8bd5290b25eea4
+MAIL_PASSWORD=f44022fe008620
+MAIL_ENCRYPTION=tls
+
+LIMPIAR CACHE ARTISAN
+php artisan cache:clear
+php artisan config:clear
+php artisan config:cache
+
+ventas.saxboutique@gmail.com
+
+Crear semilla
+php artisan make:seeder [Nombre]Seeder
+
+Ejecutar sembradora especifica
+php artisan db:seed --class=[Nombre]
+
+FRANZEL
+App ID: 3364873071367388
+Secret Key: ofmG8PnHrEJVyymTbheng1nlb5syyLHF
+
+MEL00000378714661
+MEL00000378661253
+MEL00000378648425
+MEL00000378469837
+
+Usuarios para evaluaciones.gscconsulting.org
+
+usuario: spanicano@gmail.com
+contraseña: Spanicano20#
+
+usuario: chinantla@gmail.com
+contraseña: Chinantla20#
+
+
+git init
+git add *
+git commit -m "Creación del proyecto e instalación de la librería jetstream"
+git branch -M main
+git remote add origin https://github.com/Kireck17/e-commerce.git
+git push -u origin main
+
+matrimonial_regime
+
+
+
+RFC
+WAPE930821258
+
+Soporte sax
+
+file: C:\Users\Erick\AppData\Local\Temp\vcds_hook.dll
+
+token para git hub
+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
